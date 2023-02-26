@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+	--cubic-ease: cubic-bezier(0.44, 0.43, 0.48, 0.49);
+}

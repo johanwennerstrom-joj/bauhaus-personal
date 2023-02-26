@@ -1,5 +1,13 @@
+import Hero from 'components/Hero/Hero'
+
+import { PageContainer } from 'ui/wrappers/wrappers'
+
 const Home = () => {
-	return <h1>tja</h1>
+	return (
+		<PageContainer>
+			<Hero />
+		</PageContainer>
+	)
 }
 
 export default Home
